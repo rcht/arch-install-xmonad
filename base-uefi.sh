@@ -17,7 +17,7 @@ pacman -S --noconfirm grub efibootmgr networkmanager network-manager-applet dial
           bluez bluez-utils cups hplip alsa-utils pipewire pipewire-alsa pipewire-pulse pipewire-jack bash-completion openssh \ 
           rsync reflector acpi acpi_call tlp virt-manager edk2-ovmf bridge-utils dnsmasq vde2 openbsd-netcat \
           iptables-nft ipset firewalld flatpak sof-firmware nss-mdns acpid os-prober ntfs-3g terminus-font \
-          qemu-base qemu-desktop qemu-full qemu-emulators-full 
+          qemu-desktop qemu-emulators-full 
 
 # graphics and touchpad drivers
 pacman -S --noconfirm xf86-video-intel xf86-input-libinput
